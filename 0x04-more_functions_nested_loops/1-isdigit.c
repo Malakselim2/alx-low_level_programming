@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * _isdigit - cheks for a digit (0 through 9)
- * @: int to be checked
- * Return : 1 if c is a digit, 0 otherwise
+ * _isdigit - checks for a digit (0 through 9)
+ * @c: int to be checked
+ * Return: Always 0
  */
-int _isdigit
+
+int _isdigit(int c)
 {
 	if (c >= '0' && c <= '9')
 	{
@@ -14,6 +15,6 @@ int _isdigit
 	}
 	else
 	{
-		return (0)
+		return (0);
 	}
 }
