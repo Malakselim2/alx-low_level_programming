@@ -12,7 +12,7 @@ void print_numbers(void)
 
 	for (c = '0'; c <= '9'; c++)
 	{
-		ptintf("%c", c);
+		_putcher(c);
 	}
-	printf("\n");
+	_putcher('\n');
 }
